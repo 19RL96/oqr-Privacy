@@ -1,5 +1,5 @@
 Privacy Policy for OQR
-Last updated: April 29, 2026 Effective date: April 29, 2026
+Last updated: September 22, 2026 Effective date: September 22, 2026
 
 This Privacy Policy describes how the OQR mobile application ("OQR", "the App", "we", "us", or "our") collects, uses, and shares information when you use the App on iOS or Android. We have designed OQR to be a privacy‑respecting tool: the App does not require an account, does not ask for your name or email, and stores your portfolio and price‑alert data on your device.
 
@@ -8,7 +8,7 @@ By installing or using OQR, you agree to the practices described in this Privacy
 1. Who we are
 OQR ("ოქრო") is a price‑tracking and portfolio app for gold and silver, distributed through the Apple App Store and Google Play.
 
-Contact for privacy questions: ratiliklikadze@gmail.com Social: Instagram @oqro.ge · TikTok @oqro.ge
+Contact for privacy questions: ratiliklikadze@gmail.com Social: Instagram @rljewelry.tbilisi · TikTok @rljewelry.tbilisi
 
 If you are in the European Economic Area, the United Kingdom, or Switzerland, the developer of OQR acts as the data controller for any personal data processed in connection with the App.
 
@@ -31,13 +31,13 @@ your in‑app preferences (selected currency such as GEL or USD, unit such as gr
 a flag indicating whether your Premium subscription is active.
 You can delete this information at any time by removing individual items inside the App or by uninstalling the App.
 
-b. Information processed when fetching market data To display live gold and silver prices, the App makes HTTPS requests directly from your device to Yahoo Finance's public chart endpoints (query1.finance.yahoo.com). These requests include standard technical information such as your IP address, the requested instrument symbol (e.g. GC=F, SI=F), and a generic browser User‑Agent string. We do not control Yahoo's processing of those requests; please see Yahoo's own privacy notice.
+b. Information processed when fetching market data To display live gold and silver prices, the App makes HTTPS requests directly from your device to: api.gold-api.com (world metal prices); nbg.gov.ge (the National Bank of Georgia's public API, for exchange rates and the gold-bar certificate); and open.er-api.com (a fallback exchange-rate source). The App also reads pre-built price files we publish at oqr-data.pages.dev, which is hosted on Cloudflare Pages. These requests include standard technical information such as your IP address and a generic User-Agent string. We do not receive your identity from any of them, and we do not control how those providers process the requests; please see their own privacy notices.
 
-c. Information related to in‑app purchases (Premium) If you purchase the OQR Premium subscription, the purchase itself is processed by Apple (App Store) or Google (Google Play). We do not receive your payment card or billing details. We use RevenueCat as our subscription‑management provider; RevenueCat receives a randomly generated app user ID, the product purchased, and transaction metadata (purchase date, renewal status, country) so that we can verify your entitlement to Premium features. RevenueCat may also process a hashed device identifier and IP address. See the RevenueCat Privacy Policy at https://www.revenuecat.com/privacy/.
+c. Information related to in‑app purchases (Premium) OQR Premium is a one-time purchase, not a subscription — you pay once and it stays. The purchase itself is processed by Apple (App Store) or Google (Google Play). We do not receive your payment card or billing details. We use RevenueCat to verify purchases; RevenueCat receives a randomly generated app user ID, the product purchased, and transaction metadata (purchase date, renewal status, country) so that we can verify your entitlement to Premium features. RevenueCat may also process a hashed device identifier and IP address. See the RevenueCat Privacy Policy at https://www.revenuecat.com/privacy/.
 
-d. Push notifications The App can send you local price alerts (for example, when gold rises 1% above the current price). These notifications are scheduled and delivered on your device using the operating system's notification framework (Apple Push Notification service / Firebase Cloud Messaging). The content of an alert (e.g. "Gold price exceeded $2,400") is generated locally and is not sent through our servers. You can disable notifications at any time in your device settings.
+d. Push notifications The App can send you local price alerts (for example, when gold rises 1% above the current price). These notifications are scheduled and delivered on your device using the operating system's local notification framework. No push server is involved. The content of an alert (e.g. "Gold price exceeded $2,400") is generated locally and is not sent through our servers. You can disable notifications at any time in your device settings.
 
-e. Advertising (free tier only) The free version of OQR may show banner advertisements. If and when third‑party ads are enabled (for example, through Google AdMob), the ad SDK may collect a mobile advertising identifier (IDFA on iOS, AAID on Android), coarse IP address, device model, OS version, language, and similar diagnostic information for the purpose of serving and measuring ads. You can reset or limit this identifier in your device privacy settings ("Allow Apps to Request to Track" on iOS or "Reset advertising ID" / "Delete advertising ID" on Android). Premium subscribers do not see advertisements, and the ad SDK is not loaded for them.
+e. Advertising (free tier only) The free version of OQR may show banner advertisements. If and when third‑party ads are enabled (for example, through Google AdMob), the ad SDK may collect a mobile advertising identifier (IDFA on iOS, AAID on Android), coarse IP address, device model, OS version, language, and similar diagnostic information for the purpose of serving and measuring ads. You can reset or limit this identifier in your device privacy settings ("Allow Apps to Request to Track" on iOS or "Reset advertising ID" / "Delete advertising ID" on Android). Premium users do not see advertisements, and the ad SDK is not loaded for them.
 
 f. Diagnostics We do not currently operate our own analytics backend. Apple and Google may share aggregate, non‑identifying crash and performance data with us through App Store Connect / Google Play Console if you have not opted out at the OS level. We use this only to improve stability.
 
@@ -63,11 +63,11 @@ We do not sell personal information. We share limited information only with the 
 
 Apple and Google, when you purchase, restore, or cancel a subscription, or when push notifications are delivered to your device.
 RevenueCat, to manage subscription entitlements.
-Yahoo Finance, when your device requests market data.
+gold-api.com, the National Bank of Georgia, exchangerate-api.com and Cloudflare, when your device requests market data.
 Advertising providers (e.g. Google AdMob), only when you use the free tier and only as required to serve ads.
 Law enforcement or regulators, if required by a valid legal process — although in practice we have very little information to share, because we do not operate user accounts.
 7. International transfers
-Yahoo, Apple, Google, and RevenueCat operate globally. When you use OQR, technical requests may be processed in the United States or other countries outside your country of residence. These providers rely on Standard Contractual Clauses or equivalent mechanisms for international data transfers.
+gold-api.com, Cloudflare, Apple, Google and RevenueCat operate globally. When you use OQR, technical requests may be processed in the United States or other countries outside your country of residence. These providers rely on Standard Contractual Clauses or equivalent mechanisms for international data transfers.
 
 8. Data retention
 Portfolio items, alerts, and preferences remain on your device until you delete them or uninstall the App.
@@ -95,7 +95,7 @@ OQR is intended for users aged 13 and over (16 in some jurisdictions). It is not
 We use industry‑standard measures to protect information in transit (HTTPS/TLS) and rely on the platform sandbox to protect data stored on your device. No method of transmission or storage is 100% secure, but because OQR avoids collecting personal data in the first place, the privacy impact of any incident is limited.
 
 12. Third‑party links and services
-The App contains links to third‑party websites and services (for example, news sources such as Kitco, and our Instagram and TikTok pages). This Privacy Policy does not apply to those sites. Please review their privacy policies before using them.
+The App contains links to third‑party websites and services (for example, the news outlets whose headlines the app lists, and our Instagram and TikTok pages). This Privacy Policy does not apply to those sites. Please review their privacy policies before using them.
 
 13. Changes to this Privacy Policy
 We may update this Privacy Policy from time to time. When we do, we will change the "Last updated" date at the top and, for material changes, we will notify users through an in‑app notice or release notes. Continued use of the App after the changes take effect constitutes acceptance of the updated policy.
@@ -118,7 +118,7 @@ OQR-ის ჩამოტვირთვით ან გამოყენე�
 1. ვინ ვართ ჩვენ
 OQR ("ოქრო") არის ოქროსა და ვერცხლის ფასების ტრეკინგისა და პორტფელის მართვის აპლიკაცია, რომელიც ხელმისაწვდომია Apple App Store-სა და Google Play-ში.
 კონტაქტი კონფიდენციალურობასთან დაკავშირებულ საკითხებზე: ratiliklikadze@gmail.com
-სოციალური ქსელები: Instagram @oqro.ge · TikTok @oqro.ge
+სოციალური ქსელები: Instagram @rljewelry.tbilisi · TikTok @rljewelry.tbilisi
 თუ თქვენ ხართ ევროპის ეკონომიკური ზონის, გაერთიანებული სამეფოს ან შვეიცარიის რეზიდენტი, OQR-ის დეველოპერი მოქმედებს როგორც პერსონალური მონაცემების მაკონტროლებელი (data controller).
 
 2. ინფორმაცია, რომელსაც ჩვენ არ ვაგროვებთ
@@ -139,15 +139,15 @@ OQR ("ოქრო") არის ოქროსა და ვერცხლ�
 თქვენი პორტფელის ჩანაწერები (მეტალის ტიპი, წონა გრამებში, სინჯი, არასავალდებულო შესყიდვის ფასი ლარში, დამატების თარიღი);
 ფასის შეტყობინებები (სასურველი ფასი, მეტალი, პირობა, მუდმივი/არამუდმივი სტატუსი, ბოლო გააქტიურების დრო);
 აპლიკაციის შიდა პარამეტრები (არჩეული ვალუტა — GEL ან USD, ერთეული — გრამი / კილოგრამი / უნცია, სინჯი, თემის პარამეტრები);
-Premium გამოწერის სტატუსის ფლაგი.
+Premium შესყიდვის სტატუსის ფლაგი.
 
 ამ ინფორმაციის წაშლა შესაძლებელია ნებისმიერ დროს ცალკეული ჩანაწერების წაშლით აპლიკაციის შიგნით ან აპლიკაციის წაშლით.
 ბ. ინფორმაცია, რომელიც მუშავდება საბაზრო მონაცემების მოპოვებისას
-ოქროსა და ვერცხლის რეალურ დროში ფასების ჩვენებისთვის, აპლიკაცია უგზავნის HTTPS მოთხოვნებს თქვენი მოწყობილობიდან Yahoo Finance-ის საჯარო endpoint-ებზე (query1.finance.yahoo.com). ეს მოთხოვნები შეიცავს ტექნიკურ ინფორმაციას, როგორიცაა თქვენი IP მისამართი, მოთხოვნილი ინსტრუმენტის სიმბოლო (მაგ. GC=F, SI=F) და ბრაუზერის სტანდარტული User‑Agent სტრიქონი. ჩვენ არ ვაკონტროლებთ Yahoo-ს მიერ მონაცემების დამუშავებას — გთხოვთ, გაეცნოთ Yahoo-ს კონფიდენციალურობის პოლიტიკას.
+ოქროსა და ვერცხლის ფასების საჩვენებლად აპლიკაცია თქვენი მოწყობილობიდან პირდაპირ უგზავნის HTTPS მოთხოვნებს შემდეგ წყაროებს: api.gold-api.com (ლითონების მსოფლიო ფასები), nbg.gov.ge (საქართველოს ეროვნული ბანკის საჯარო API — სავალუტო კურსები და ოქროს ზოდის სერტიფიკატი) და open.er-api.com (სავალუტო კურსის სარეზერვო წყარო). აპლიკაცია ასევე კითხულობს ჩვენ მიერ მომზადებულ ფასების ფაილებს მისამართზე oqr-data.pages.dev, რომელიც განთავსებულია Cloudflare Pages-ზე. ეს მოთხოვნები შეიცავს ტექნიკურ ინფორმაციას, მათ შორის თქვენს IP მისამართს. ჩვენ არ ვიღებთ თქვენს ვინაობას არცერთი მათგანისგან და არ ვაკონტროლებთ ამ მომწოდებლების მიერ მონაცემების დამუშავებას — გთხოვთ, გაეცნოთ მათ კონფიდენციალურობის პოლიტიკას.
 გ. ინფორმაცია აპლიკაციაში გადახდებთან დაკავშირებით (Premium)
-თუ შეიძენთ OQR Premium-ს, თვით ტრანზაქცია მუშავდება Apple-ის (App Store) ან Google-ის (Google Play) მიერ. ჩვენ არ ვიღებთ თქვენი ბარათის ან საბანკო რეკვიზიტების ინფორმაციას. ჩვენ ვიყენებთ RevenueCat-ს გამოწერების მართვის სერვისად; RevenueCat იღებს შემთხვევით გენერირებულ მომხმარებლის ID-ს, შეძენილი პროდუქტის სახელს და ტრანზაქციის მეტამონაცემებს (შეძენის თარიღი, განახლების სტატუსი, ქვეყანა), რათა ჩვენ შევძლოთ Premium ფუნქციონალის სტატუსის გადამოწმება. RevenueCat ასევე შესაძლოა ამუშავოს ჰეშირებული მოწყობილობის იდენტიფიკატორი და IP მისამართი. იხილეთ: https://www.revenuecat.com/privacy/.
+OQR Premium ერთჯერადი შესყიდვაა და არა გამოწერა — ერთხელ იხდით და სამუდამოდ რჩება. თვით ტრანზაქცია მუშავდება Apple-ის (App Store) ან Google-ის (Google Play) მიერ. ჩვენ არ ვიღებთ თქვენი ბარათის ან საბანკო რეკვიზიტების ინფორმაციას. ჩვენ ვიყენებთ RevenueCat-ს შესყიდვების გადასამოწმებლად; RevenueCat იღებს შემთხვევით გენერირებულ მომხმარებლის ID-ს, შეძენილი პროდუქტის სახელს და ტრანზაქციის მეტამონაცემებს (შეძენის თარიღი, განახლების სტატუსი, ქვეყანა), რათა ჩვენ შევძლოთ Premium ფუნქციონალის სტატუსის გადამოწმება. RevenueCat ასევე შესაძლოა ამუშავოს ჰეშირებული მოწყობილობის იდენტიფიკატორი და IP მისამართი. იხილეთ: https://www.revenuecat.com/privacy/.
 დ. Push შეტყობინებები
-აპლიკაცია გიგზავნით ფასის ლოკალურ შეტყობინებებს (მაგ. როცა ოქრო 1%-ით აჭარბებს მიმდინარე ფასს). ეს შეტყობინებები იქმნება და ვრცელდება უშუალოდ თქვენს მოწყობილობაზე, ოპერაციული სისტემის შეტყობინებების სისტემის გამოყენებით (Apple Push Notification service / Firebase Cloud Messaging). შეტყობინების შინაარსი (მაგ. "ოქროს ფასმა გადააჭარბა $2,400-ს") გენერირდება ლოკალურად და არ გადის ჩვენი სერვერებიდან. შეტყობინებების გათიშვა შესაძლებელია ნებისმიერ დროს მოწყობილობის პარამეტრებიდან.
+აპლიკაცია გიგზავნით ფასის ლოკალურ შეტყობინებებს (მაგ. როცა ოქრო 1%-ით აჭარბებს მიმდინარე ფასს). ეს შეტყობინებები იქმნება და ვრცელდება უშუალოდ თქვენს მოწყობილობაზე, ოპერაციული სისტემის ლოკალური შეტყობინებების სისტემის გამოყენებით. push-სერვერი არ მონაწილეობს. შეტყობინების შინაარსი (მაგ. "ოქროს ფასმა გადააჭარბა $2,400-ს") გენერირდება ლოკალურად და არ გადის ჩვენი სერვერებიდან. შეტყობინებების გათიშვა შესაძლებელია ნებისმიერ დროს მოწყობილობის პარამეტრებიდან.
 ე. რეკლამა (მხოლოდ უფასო ვერსიაში)
 OQR-ის უფასო ვერსიაში შესაძლოა გამოჩნდეს სარეკლამო ბანერი. როდესაც ჩაირთვება მესამე მხარის რეკლამები (მაგალითად, Google AdMob-ის მეშვეობით), სარეკლამო SDK შესაძლოა აგროვებდეს მობილური სარეკლამო იდენტიფიკატორს (IDFA — iOS-ზე, AAID — Android-ზე), დაახლოებით IP მისამართს, მოწყობილობის მოდელს, ოპერაციული სისტემის ვერსიას, ენას და მსგავს დიაგნოსტიკურ ინფორმაციას რეკლამის ჩვენებისა და ეფექტურობის გაზომვის მიზნით. ამ იდენტიფიკატორის განულება ან შეზღუდვა შესაძლებელია მოწყობილობის პარამეტრებში ("Allow Apps to Request to Track" — iOS-ზე ან "Reset advertising ID" / "Delete advertising ID" — Android-ზე). Premium მომხმარებლები რეკლამას ვერ ხედავენ, და მათთვის SDK არ ჩაიტვირთება.
 ვ. დიაგნოსტიკა
@@ -168,7 +168,7 @@ OQR-ის უფასო ვერსიაში შესაძლოა გ
 5. სამართლებრივი საფუძველი (EEA / UK მომხმარებლებისთვის)
 თუ მოქმედებს GDPR ან UK GDPR, ჩვენ ვეყრდნობით შემდეგ სამართლებრივ საფუძვლებს:
 
-ხელშეკრულების შესრულება — აპლიკაციის ძირითადი ფუნქციონალის უზრუნველსაყოფად, მათ შორის Premium გამოწერის გადამოწმებისთვის.
+ხელშეკრულების შესრულება — აპლიკაციის ძირითადი ფუნქციონალის უზრუნველსაყოფად, მათ შორის Premium შესყიდვის გადამოწმებისთვის.
 ლეგიტიმური ინტერესები — აპლიკაციის უსაფრთხოების შენარჩუნებისთვის, ბოროტად გამოყენების თავიდან ასაცილებლად და სტაბილურობის გაუმჯობესებისთვის. თქვენ შეგიძლიათ გააპროტესტოთ ლეგიტიმურ ინტერესებზე დაფუძნებული დამუშავება ნებისმიერ დროს.
 თანხმობა — პერსონალიზებული რეკლამისთვის იმ მოწყობილობებზე, სადაც ეს მოითხოვება (მაგალითად, App Tracking Transparency — iOS-ზე). თანხმობის გაუქმება შესაძლებელია ნებისმიერ დროს მოწყობილობის პარამეტრებიდან.
 
@@ -176,15 +176,15 @@ OQR-ის უფასო ვერსიაში შესაძლოა გ
 6. ინფორმაციის გაზიარება
 ჩვენ არ ვყიდით პერსონალურ ინფორმაციას. ჩვენ ვაზიარებთ შეზღუდულ ინფორმაციას მხოლოდ შემდეგ კატეგორიებთან:
 
-Apple და Google — გამოწერის შეძენის, აღდგენის ან გაუქმებისას, ან push შეტყობინებების მიწოდებისას.
-RevenueCat — გამოწერების მართვისთვის.
-Yahoo Finance — საბაზრო მონაცემების მიღებისას.
+Apple და Google — შესყიდვისას ან მისი აღდგენისას.
+RevenueCat — შესყიდვების გადასამოწმებლად.
+gold-api.com, საქართველოს ეროვნული ბანკი, exchangerate-api.com და Cloudflare — საბაზრო მონაცემების მიღებისას.
 სარეკლამო პარტნიორები (მაგ. Google AdMob) — მხოლოდ უფასო ვერსიის გამოყენებისას და მხოლოდ რეკლამის ჩვენებისთვის საჭირო ფარგლებში.
 სამართალდამცავი ან მარეგულირებელი ორგანოები — თუ ეს მოითხოვება მოქმედი კანონმდებლობით; თუმცა, პრაქტიკაში ჩვენ გვაქვს ძალიან მცირე ინფორმაცია გასაცემად, რადგან აპლიკაცია არ მუშაობს მომხმარებლის ანგარიშებთან.
 
 
 7. საერთაშორისო გადაცემები
-Yahoo, Apple, Google და RevenueCat მუშაობენ მსოფლიო მასშტაბით. OQR-ის გამოყენებისას, ტექნიკური მოთხოვნები შესაძლოა მუშავდებოდეს აშშ-ში ან თქვენი საცხოვრებელი ქვეყნის ფარგლებს გარეთ. ეს პროვაიდერები იყენებენ Standard Contractual Clauses-ს (SCC) ან მსგავს მექანიზმებს საერთაშორისო გადაცემებისთვის.
+gold-api.com, Cloudflare, Apple, Google და RevenueCat მუშაობენ მსოფლიო მასშტაბით. OQR-ის გამოყენებისას, ტექნიკური მოთხოვნები შესაძლოა მუშავდებოდეს აშშ-ში ან თქვენი საცხოვრებელი ქვეყნის ფარგლებს გარეთ. ეს პროვაიდერები იყენებენ Standard Contractual Clauses-ს (SCC) ან მსგავს მექანიზმებს საერთაშორისო გადაცემებისთვის.
 
 8. მონაცემების შენახვის ვადა
 
@@ -214,7 +214,7 @@ OQR განკუთვნილია 13 წლის ან უფროს�
 ჩვენ ვიყენებთ ინდუსტრიის სტანდარტულ უსაფრთხოების ზომებს ინფორმაციის გადაცემისას (HTTPS/TLS) და ვეყრდნობით პლატფორმის sandbox-ის მექანიზმს მონაცემების მოწყობილობაზე დასაცავად. გადაცემის ან შენახვის არცერთი მეთოდი არ არის 100%-ით უსაფრთხო, თუმცა, რადგან OQR-ი თავიდანვე არ აგროვებს პერსონალურ მონაცემებს, ნებისმიერი ინციდენტის გავლენა შეზღუდულია.
 
 12. მესამე მხარის ბმულები და სერვისები
-აპლიკაცია შეიცავს ბმულებს მესამე მხარის ვებსაიტებსა და სერვისებზე (მაგალითად, ახალი ამბების წყაროებზე, როგორიცაა Kitco, ასევე ჩვენს Instagram-სა და TikTok-ის გვერდებზე). ეს კონფიდენციალურობის პოლიტიკა არ ვრცელდება ამ საიტებზე. გთხოვთ, გაეცნოთ მათ კონფიდენციალურობის პოლიტიკას მათი გამოყენებამდე.
+აპლიკაცია შეიცავს ბმულებს მესამე მხარის ვებსაიტებსა და სერვისებზე (მაგალითად, ახალი ამბების იმ წყაროებზე, რომელთა სათაურებსაც აპლიკაცია აჩვენებს, ასევე ჩვენს Instagram-სა და TikTok-ის გვერდებზე). ეს კონფიდენციალურობის პოლიტიკა არ ვრცელდება ამ საიტებზე. გთხოვთ, გაეცნოთ მათ კონფიდენციალურობის პოლიტიკას მათი გამოყენებამდე.
 
 13. ცვლილებები ამ პოლიტიკაში
 ჩვენ შესაძლოა დროდადრო განვაახლოთ ეს კონფიდენციალურობის პოლიტიკა. ცვლილებების შემთხვევაში შევცვლით "ბოლო განახლება"-ს თარიღს ზევით, ხოლო მნიშვნელოვანი ცვლილებების შემთხვევაში გამოგიგზავნით აპლიკაციის შიგნით შეტყობინებას ან აღნიშნავთ release notes-ში. ცვლილებების ძალაში შესვლის შემდეგ აპლიკაციის გამოყენების გაგრძელება ნიშნავს განახლებული პოლიტიკის მიღებას.
