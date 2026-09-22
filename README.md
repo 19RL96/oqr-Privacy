@@ -1,5 +1,5 @@
 Privacy Policy for OQR
-Last updated: September 22, 2026 Effective date: September 22, 2026
+Last updated: September 23, 2026 Effective date: September 23, 2026
 
 This Privacy Policy describes how the OQR mobile application ("OQR", "the App", "we", "us", or "our") collects, uses, and shares information when you use the App on iOS or Android. We have designed OQR to be a privacy‑respecting tool: the App does not require an account, does not ask for your name or email, and stores your portfolio and price‑alert data on your device.
 
@@ -37,7 +37,7 @@ c. Information related to in‑app purchases (Premium) OQR Premium is a one-time
 
 d. Push notifications The App can send you local price alerts (for example, when gold rises 1% above the current price). These notifications are scheduled and delivered on your device using the operating system's local notification framework. No push server is involved. The content of an alert (e.g. "Gold price exceeded $2,400") is generated locally and is not sent through our servers. You can disable notifications at any time in your device settings.
 
-e. Advertising (free tier only) The free version of OQR may show banner advertisements. If and when third‑party ads are enabled (for example, through Google AdMob), the ad SDK may collect a mobile advertising identifier (IDFA on iOS, AAID on Android), coarse IP address, device model, OS version, language, and similar diagnostic information for the purpose of serving and measuring ads. You can reset or limit this identifier in your device privacy settings ("Allow Apps to Request to Track" on iOS or "Reset advertising ID" / "Delete advertising ID" on Android). Premium users do not see advertisements, and the ad SDK is not loaded for them.
+e. Advertising and tracking OQR contains no advertising. There is no ad SDK in the app, no advertising identifier (IDFA or AAID) is read, and nothing about you is used for tracking or shared with an ad network. Because there is nothing to ask permission for, the App Tracking Transparency prompt never appears. Premium is what funds the app instead.
 
 f. Diagnostics We do not currently operate our own analytics backend. Apple and Google may share aggregate, non‑identifying crash and performance data with us through App Store Connect / Google Play Console if you have not opted out at the OS level. We use this only to improve stability.
 
@@ -48,7 +48,7 @@ show you live gold and silver prices and the historical chart;
 calculate the value of items in your portfolio and any profit or loss;
 trigger price alerts you have configured;
 verify and restore your Premium entitlement;
-show advertisements to free‑tier users (if enabled);
+
 detect and fix crashes and abusive use (e.g. rate‑limiting purchase attempts).
 We do not use your information for profiling, scoring, automated decision‑making with legal effects, or for any purpose unrelated to operating the App.
 
@@ -57,14 +57,12 @@ Where the GDPR or UK GDPR applies, we rely on the following legal bases:
 
 Performance of a contract — to provide the core App functionality you have requested, including verifying Premium subscriptions.
 Legitimate interests — to keep the App secure, prevent abuse, and improve stability. You can object to processing based on legitimate interests at any time.
-Consent — for personalized advertising on devices where consent is required (for example, App Tracking Transparency on iOS). You can withdraw consent at any time in your device settings.
 6. Sharing of information
 We do not sell personal information. We share limited information only with the following categories of recipients:
 
 Apple and Google, when you purchase, restore, or cancel a subscription, or when push notifications are delivered to your device.
 RevenueCat, to manage subscription entitlements.
 gold-api.com, the National Bank of Georgia, exchangerate-api.com and Cloudflare, when your device requests market data.
-Advertising providers (e.g. Google AdMob), only when you use the free tier and only as required to serve ads.
 Law enforcement or regulators, if required by a valid legal process — although in practice we have very little information to share, because we do not operate user accounts.
 7. International transfers
 gold-api.com, Cloudflare, Apple, Google and RevenueCat operate globally. When you use OQR, technical requests may be processed in the United States or other countries outside your country of residence. These providers rely on Standard Contractual Clauses or equivalent mechanisms for international data transfers.
@@ -86,7 +84,7 @@ data portability;
 lodge a complaint with your local data protection authority.
 Because the vast majority of your data lives only on your device, the fastest way to exercise most of these rights is to delete items inside the App or uninstall the App. For requests involving subscription data, please email ratiliklikadze@gmail.com with the email address associated with your Apple ID or Google account so we (and RevenueCat) can locate the record. We will respond within 30 days.
 
-California residents have rights under the CCPA/CPRA, including the right to know, delete, correct, and opt out of "sale" or "sharing" of personal information. We do not sell personal information and do not knowingly share it for cross‑context behavioral advertising outside of the standard mobile‑advertising frameworks described above. You may submit requests to the email above.
+California residents have rights under the CCPA/CPRA, including the right to know, delete, correct, and opt out of "sale" or "sharing" of personal information. We do not sell personal information and do not share it for cross‑context behavioral advertising: the app carries no advertising at all. You may submit requests to the email above.
 
 10. Children's privacy
 OQR is intended for users aged 13 and over (16 in some jurisdictions). It is not directed to children. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us and we will take steps to delete it.
@@ -148,8 +146,8 @@ Premium შესყიდვის სტატუსის ფლაგი.
 OQR Premium ერთჯერადი შესყიდვაა და არა გამოწერა — ერთხელ იხდით და სამუდამოდ რჩება. თვით ტრანზაქცია მუშავდება Apple-ის (App Store) ან Google-ის (Google Play) მიერ. ჩვენ არ ვიღებთ თქვენი ბარათის ან საბანკო რეკვიზიტების ინფორმაციას. ჩვენ ვიყენებთ RevenueCat-ს შესყიდვების გადასამოწმებლად; RevenueCat იღებს შემთხვევით გენერირებულ მომხმარებლის ID-ს, შეძენილი პროდუქტის სახელს და ტრანზაქციის მეტამონაცემებს (შეძენის თარიღი, განახლების სტატუსი, ქვეყანა), რათა ჩვენ შევძლოთ Premium ფუნქციონალის სტატუსის გადამოწმება. RevenueCat ასევე შესაძლოა ამუშავოს ჰეშირებული მოწყობილობის იდენტიფიკატორი და IP მისამართი. იხილეთ: https://www.revenuecat.com/privacy/.
 დ. Push შეტყობინებები
 აპლიკაცია გიგზავნით ფასის ლოკალურ შეტყობინებებს (მაგ. როცა ოქრო 1%-ით აჭარბებს მიმდინარე ფასს). ეს შეტყობინებები იქმნება და ვრცელდება უშუალოდ თქვენს მოწყობილობაზე, ოპერაციული სისტემის ლოკალური შეტყობინებების სისტემის გამოყენებით. push-სერვერი არ მონაწილეობს. შეტყობინების შინაარსი (მაგ. "ოქროს ფასმა გადააჭარბა $2,400-ს") გენერირდება ლოკალურად და არ გადის ჩვენი სერვერებიდან. შეტყობინებების გათიშვა შესაძლებელია ნებისმიერ დროს მოწყობილობის პარამეტრებიდან.
-ე. რეკლამა (მხოლოდ უფასო ვერსიაში)
-OQR-ის უფასო ვერსიაში შესაძლოა გამოჩნდეს სარეკლამო ბანერი. როდესაც ჩაირთვება მესამე მხარის რეკლამები (მაგალითად, Google AdMob-ის მეშვეობით), სარეკლამო SDK შესაძლოა აგროვებდეს მობილური სარეკლამო იდენტიფიკატორს (IDFA — iOS-ზე, AAID — Android-ზე), დაახლოებით IP მისამართს, მოწყობილობის მოდელს, ოპერაციული სისტემის ვერსიას, ენას და მსგავს დიაგნოსტიკურ ინფორმაციას რეკლამის ჩვენებისა და ეფექტურობის გაზომვის მიზნით. ამ იდენტიფიკატორის განულება ან შეზღუდვა შესაძლებელია მოწყობილობის პარამეტრებში ("Allow Apps to Request to Track" — iOS-ზე ან "Reset advertising ID" / "Delete advertising ID" — Android-ზე). Premium მომხმარებლები რეკლამას ვერ ხედავენ, და მათთვის SDK არ ჩაიტვირთება.
+ე. რეკლამა და თრექინგი
+OQR არ შეიცავს რეკლამას. აპლიკაციაში სარეკლამო SDK არ არის, სარეკლამო იდენტიფიკატორს (IDFA ან AAID) არ კითხულობს და თქვენზე არაფერი გამოიყენება თრექინგისთვის და არ გადაეცემა სარეკლამო ქსელს. ნებართვა არაფერზე გვჭირდება, ამიტომ App Tracking Transparency-ის შეტყობინება არასდროს გამოჩნდება. აპლიკაციას Premium არჩენს.
 ვ. დიაგნოსტიკა
 ჩვენ არ ვმართავთ საკუთარ ანალიტიკურ სერვერებს. Apple-მა და Google-მა შესაძლოა გვიზიარონ ანონიმური, აგრეგირებული კრაშის და წარმადობის მონაცემები App Store Connect / Google Play Console-ის მეშვეობით, თუ ოპერაციული სისტემის დონეზე არ უარყოფთ ამას. ეს მონაცემები გამოიყენება მხოლოდ აპლიკაციის სტაბილურობის გაუმჯობესებისთვის.
 
@@ -160,7 +158,6 @@ OQR-ის უფასო ვერსიაში შესაძლოა გ
 დაითვალოთ პორტფელის ღირებულება და მოგება/ზარალი;
 გააქტიურდეს თქვენ მიერ დაყენებული ფასის შეტყობინებები;
 გადამოწმდეს და აღდგეს Premium სტატუსი;
-უფასო მომხმარებლებს ვაჩვენოთ რეკლამები (თუ ჩართულია);
 გამოვავლინოთ კრაშები და თავიდან ავიცილოთ ბოროტად გამოყენება (მაგ. შესყიდვების მცდელობების შეზღუდვა).
 
 ჩვენ არ ვიყენებთ თქვენს ინფორმაციას პროფილირებისთვის, ქულების მინიჭებისთვის, იურიდიული შედეგის მქონე ავტომატური გადაწყვეტილებების მისაღებად ან სხვა ნებისმიერი მიზნისთვის, რომელიც დაკავშირებული არ არის აპლიკაციის ფუნქციონირებასთან.
@@ -170,7 +167,6 @@ OQR-ის უფასო ვერსიაში შესაძლოა გ
 
 ხელშეკრულების შესრულება — აპლიკაციის ძირითადი ფუნქციონალის უზრუნველსაყოფად, მათ შორის Premium შესყიდვის გადამოწმებისთვის.
 ლეგიტიმური ინტერესები — აპლიკაციის უსაფრთხოების შენარჩუნებისთვის, ბოროტად გამოყენების თავიდან ასაცილებლად და სტაბილურობის გაუმჯობესებისთვის. თქვენ შეგიძლიათ გააპროტესტოთ ლეგიტიმურ ინტერესებზე დაფუძნებული დამუშავება ნებისმიერ დროს.
-თანხმობა — პერსონალიზებული რეკლამისთვის იმ მოწყობილობებზე, სადაც ეს მოითხოვება (მაგალითად, App Tracking Transparency — iOS-ზე). თანხმობის გაუქმება შესაძლებელია ნებისმიერ დროს მოწყობილობის პარამეტრებიდან.
 
 
 6. ინფორმაციის გაზიარება
@@ -179,7 +175,6 @@ OQR-ის უფასო ვერსიაში შესაძლოა გ
 Apple და Google — შესყიდვისას ან მისი აღდგენისას.
 RevenueCat — შესყიდვების გადასამოწმებლად.
 gold-api.com, საქართველოს ეროვნული ბანკი, exchangerate-api.com და Cloudflare — საბაზრო მონაცემების მიღებისას.
-სარეკლამო პარტნიორები (მაგ. Google AdMob) — მხოლოდ უფასო ვერსიის გამოყენებისას და მხოლოდ რეკლამის ჩვენებისთვის საჭირო ფარგლებში.
 სამართალდამცავი ან მარეგულირებელი ორგანოები — თუ ეს მოითხოვება მოქმედი კანონმდებლობით; თუმცა, პრაქტიკაში ჩვენ გვაქვს ძალიან მცირე ინფორმაცია გასაცემად, რადგან აპლიკაცია არ მუშაობს მომხმარებლის ანგარიშებთან.
 
 
@@ -205,7 +200,7 @@ Apple / Google ინახავენ ტრანზაქციის ჩა
 საჩივრის შეტანა მონაცემთა დაცვის ადგილობრივ ორგანოში.
 
 რადგან თქვენი მონაცემების უმეტესობა ინახება მხოლოდ თქვენს მოწყობილობაზე, ამ უფლებების უმარტივესი განხორციელების გზა არის ჩანაწერების წაშლა აპლიკაციის შიგნით ან აპლიკაციის წაშლა. გამოწერებთან დაკავშირებული მოთხოვნებისთვის გთხოვთ, მოგვწეროთ მისამართზე ratiliklikadze@gmail.com იმ Apple ID-ს ან Google ანგარიშის ელფოსტიდან, რომელიც დაკავშირებულია ტრანზაქციასთან, რათა შევძლოთ (და RevenueCat-მაც შეძლოს) ჩანაწერის მოძებნა. ჩვენ ვუპასუხებთ 30 დღის განმავლობაში.
-კალიფორნიის რეზიდენტებს აქვთ უფლებები CCPA/CPRA-ს მიხედვით, მათ შორის უფლება იცოდნენ, წაშალონ, გაასწორონ და უარი თქვან პერსონალური ინფორმაციის "გაყიდვაზე" ან "გაზიარებაზე". ჩვენ არ ვყიდით პერსონალურ ინფორმაციას და, რაც ზემოთ აღწერილ მობილურ-სარეკლამო ჩარჩოებში არ ჯდება, ცნობიერად არ ვუზიარებთ მესამე მხარეებს კონტექსტური ქცევითი რეკლამისთვის. მოთხოვნები გთხოვთ გაგზავნოთ ზემოთ მითითებულ ელფოსტაზე.
+კალიფორნიის რეზიდენტებს აქვთ უფლებები CCPA/CPRA-ს მიხედვით, მათ შორის უფლება იცოდნენ, წაშალონ, გაასწორონ და უარი თქვან პერსონალური ინფორმაციის "გაყიდვაზე" ან "გაზიარებაზე". ჩვენ არ ვყიდით პერსონალურ ინფორმაციას და არ ვუზიარებთ მესამე მხარეებს კონტექსტური ქცევითი რეკლამისთვის — აპლიკაცია საერთოდ არ შეიცავს რეკლამას. მოთხოვნები გთხოვთ გაგზავნოთ ზემოთ მითითებულ ელფოსტაზე.
 
 10. ბავშვების კონფიდენციალურობა
 OQR განკუთვნილია 13 წლის ან უფროსი ასაკის მომხმარებლებისთვის (ზოგიერთ ქვეყანაში — 16 წლის). იგი არ არის მიმართული ბავშვებზე. ჩვენ ცნობიერად არ ვაგროვებთ ბავშვების პერსონალურ ინფორმაციას. თუ ფიქრობთ, რომ ბავშვმა მოგვაწოდა პერსონალური ინფორმაცია აპლიკაციის გამოყენებით, გთხოვთ, დაგვიკავშირდით და ჩვენ წავშლით ამ ინფორმაციას.
