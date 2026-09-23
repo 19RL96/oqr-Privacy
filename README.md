@@ -71,7 +71,7 @@ gold-api.com, Cloudflare, Apple, Google and RevenueCat operate globally. When yo
 
 8. Data retention
 Portfolio items, alerts, and preferences remain on your device until you delete them or uninstall the App.
-RevenueCat retains subscription records for as long as your subscription is active and for a limited period afterwards for accounting and fraud‑prevention purposes.
+RevenueCat retains purchase records for as long as your Premium purchase is valid and for a limited period afterwards for accounting and fraud‑prevention purposes.
 Apple / Google retain transaction records according to their own retention schedules.
 We do not maintain server‑side copies of your portfolio or alerts.
 
