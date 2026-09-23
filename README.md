@@ -8,7 +8,7 @@ By installing or using OQR, you agree to the practices described in this Privacy
 1. Who we are
 OQR ("ოქრო") is a price‑tracking and portfolio app for gold and silver, distributed through the Apple App Store and Google Play.
 
-Contact for privacy questions: ratiliklikadze@gmail.com Social: Instagram @rljewelry.tbilisi · TikTok @rljewelry.tbilisi
+Contact for privacy questions: ratiliklikadze@gmail.com Social: Instagram @19rl96 · TikTok @19rl96
 
 If you are in the European Economic Area, the United Kingdom, or Switzerland, the developer of OQR acts as the data controller for any personal data processed in connection with the App.
 
@@ -118,7 +118,7 @@ OQR-ის ჩამოტვირთვით ან გამოყენე�
 1. ვინ ვართ ჩვენ
 OQR ("ოქრო") არის ოქროსა და ვერცხლის ფასების ტრეკინგისა და პორტფელის მართვის აპლიკაცია, რომელიც ხელმისაწვდომია Apple App Store-სა და Google Play-ში.
 კონტაქტი კონფიდენციალურობასთან დაკავშირებულ საკითხებზე: ratiliklikadze@gmail.com
-სოციალური ქსელები: Instagram @rljewelry.tbilisi · TikTok @rljewelry.tbilisi
+სოციალური ქსელები: Instagram @19rl96 · TikTok @19rl96
 თუ თქვენ ხართ ევროპის ეკონომიკური ზონის, გაერთიანებული სამეფოს ან შვეიცარიის რეზიდენტი, OQR-ის დეველოპერი მოქმედებს როგორც პერსონალური მონაცემების მაკონტროლებელი (data controller).
 
 2. ინფორმაცია, რომელსაც ჩვენ არ ვაგროვებთ
