@@ -25,10 +25,12 @@ The following categories of information are processed when you use the App:
 
 a. Information stored only on your device The App stores the following items locally using the device's secure on‑device storage (AsyncStorage). This information is never transmitted to a server we operate:
 
-your portfolio entries (metal type, weight in grams, karat, optional purchase price in GEL, date added);
-your price alerts (target price, metal, condition, persistence flag, last‑triggered timestamp);
-your in‑app preferences (selected currency such as GEL or USD, unit such as gram / kilogram / ounce, karat selection, theme settings);
-a flag indicating whether your Premium subscription is active.
+your portfolio entries (metal type, weight in grams, hallmark purity, optional purchase price, date added);
+your price alerts (target price, metal, condition, repeat setting, last‑triggered time);
+your in‑app preferences (language, currency, unit, the calculator's last purity and weight, ring‑sizer calibration, home‑screen background, and a launch counter used to decide when to introduce Premium and the widgets);
+a local record of the prices the App has fetched, used to draw charts;
+the last fetched prices, exchange rates and news headlines, so the App can show them when offline.
+Premium status is not stored by the App: it is read from the App Store through RevenueCat each time the App starts.
 You can delete this information at any time by removing individual items inside the App or by uninstalling the App.
 
 b. Information processed when fetching market data To display live gold and silver prices, the App makes HTTPS requests directly from your device to: api.gold-api.com (world metal prices); nbg.gov.ge (the National Bank of Georgia's public API, for exchange rates and the gold-bar certificate); and open.er-api.com (a fallback exchange-rate source). The App also reads pre-built price files we publish at oqr-data.pages.dev, which is hosted on Cloudflare Pages. These requests include standard technical information such as your IP address and a generic User-Agent string. We do not receive your identity from any of them, and we do not control how those providers process the requests; please see their own privacy notices.
@@ -108,8 +110,8 @@ This document is provided as a template based on the App's current technical imp
 
 
 კონფიდენციალურობის პოლიტიკა — OQR
-ბოლო განახლება: 29 აპრილი, 2026
-ძალაში შესვლის თარიღი: 29 აპრილი, 2026
+ბოლო განახლება: 23 სექტემბერი, 2026
+ძალაში შესვლის თარიღი: 23 სექტემბერი, 2026
 წინამდებარე კონფიდენციალურობის პოლიტიკა აღწერს, თუ როგორ აგროვებს, იყენებს და ანაწილებს ინფორმაციას მობილური აპლიკაცია OQR ("OQR", "აპლიკაცია", "ჩვენ", "ჩვენი"), როდესაც თქვენ იყენებთ მას iOS-ზე ან Android-ზე. OQR შექმნილია კონფიდენციალურობის მაქსიმალური დაცვით: აპლიკაცია არ ითხოვს ანგარიშის შექმნას, არ ითხოვს თქვენს სახელს ან ელფოსტას და თქვენი პორტფელი და ფასის შეტყობინებები ინახება მხოლოდ თქვენს მოწყობილობაზე.
 OQR-ის ჩამოტვირთვით ან გამოყენებით, თქვენ ეთანხმებით აქ აღწერილ პრაქტიკას. თუ არ ეთანხმებით, გთხოვთ, ნუ გამოიყენებთ აპლიკაციას.
 
@@ -134,10 +136,12 @@ OQR ("ოქრო") არის ოქროსა და ვერცხლ�
 ა. ინფორმაცია, რომელიც ინახება მხოლოდ თქვენს მოწყობილობაზე
 აპლიკაცია ლოკალურად ინახავს შემდეგ ინფორმაციას მოწყობილობის ადგილობრივი დამცავი მეხსიერების (AsyncStorage) გამოყენებით. ეს ინფორმაცია არასოდეს იგზავნება ჩვენს სერვერებზე:
 
-თქვენი პორტფელის ჩანაწერები (მეტალის ტიპი, წონა გრამებში, სინჯი, არასავალდებულო შესყიდვის ფასი ლარში, დამატების თარიღი);
-ფასის შეტყობინებები (სასურველი ფასი, მეტალი, პირობა, მუდმივი/არამუდმივი სტატუსი, ბოლო გააქტიურების დრო);
-აპლიკაციის შიდა პარამეტრები (არჩეული ვალუტა — GEL ან USD, ერთეული — გრამი / კილოგრამი / უნცია, სინჯი, თემის პარამეტრები);
-Premium შესყიდვის სტატუსის ფლაგი.
+თქვენი პორტფელის ჩანაწერები (მეტალის ტიპი, წონა გრამებში, სინჯი, არასავალდებულო შესყიდვის ფასი, დამატების თარიღი);
+ფასის შეტყობინებები (სასურველი ფასი, მეტალი, პირობა, გამეორების პარამეტრი, ბოლო გააქტიურების დრო);
+აპლიკაციის შიდა პარამეტრები (ენა, ვალუტა, ერთეული, კალკულატორში ბოლოს გამოყენებული სინჯი და წონა, ბეჭდის ზომის კალიბრაცია, მთავარი ეკრანის ფონი და გაშვებების მთვლელი, რომლითაც Premium-ისა და ვიჯეტების შეთავაზების დრო განისაზღვრება);
+აპლიკაციის მიერ მიღებული ფასების ლოკალური ჩანაწერი, რომლითაც გრაფიკები იხატება;
+ბოლოს მიღებული ფასები, სავალუტო კურსები და სიახლეების სათაურები, რომ ოფლაინ რეჟიმშიც გამოჩნდეს.
+Premium-ის სტატუსს აპლიკაცია არ ინახავს — ის ყოველი გაშვებისას App Store-იდან, RevenueCat-ის მეშვეობით იკითხება.
 
 ამ ინფორმაციის წაშლა შესაძლებელია ნებისმიერ დროს ცალკეული ჩანაწერების წაშლით აპლიკაციის შიგნით ან აპლიკაციის წაშლით.
 ბ. ინფორმაცია, რომელიც მუშავდება საბაზრო მონაცემების მოპოვებისას
